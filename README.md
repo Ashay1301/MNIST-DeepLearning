@@ -28,6 +28,8 @@ The goal of this project was to become familiar with deep networks. For this pro
 ## Transfer Learning to Greek Letters
 
 the Greek letter dataset specified in the task description was downloaded and prepared for compatibility with the existing network configuration. In order to enable the system to recognize Greek letters, the pre-trained model from the previous step was loaded. The gradient parameters were frozen, and the last linear layer was modified to have 3 output nodes instead of 10. Training and testing were conducted using all 27 images. Notably, the model achieved a 96% accuracy rate after several epochs; however, it exhibited difficulty in further training beyond this point.
+
+
 <img width="468" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/ac42e39a-7b72-4df6-9813-f3be14119887">
 
 
