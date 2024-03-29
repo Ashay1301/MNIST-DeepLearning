@@ -10,6 +10,13 @@ The goal of this project was to become familiar with deep networks. For this pro
 ## Network Model
 <img width="240" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/cf3e014e-5a23-4c01-a8c9-8629d8d4046e">
 
+## Output
+
+ 
+ 
+![image](https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/e2c3071a-6eb7-413e-9b98-cf70ce3c72e8)
+
+
 
 
 ## Steps:
