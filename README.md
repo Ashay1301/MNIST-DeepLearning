@@ -11,11 +11,8 @@ The goal of this project was to become familiar with deep networks. For this pro
 <img width="240" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/cf3e014e-5a23-4c01-a8c9-8629d8d4046e">
 
 ## Output
-
- 
- 
-![image](https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/e2c3071a-6eb7-413e-9b98-cf70ce3c72e8)
-
+<img width="468" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/62a53d38-55a2-48ca-8aa2-7d51f6213542">
+<img width="468" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/3f83d896-d6da-4317-bb50-992fd9c0d3e4">
 
 
 
@@ -27,6 +24,11 @@ The goal of this project was to become familiar with deep networks. For this pro
 4. Train and Evaluate the Model
 5. Saving the model
 6. Make Predictions
+
+## Transfer Learning to Greek Letters
+
+the Greek letter dataset specified in the task description was downloaded and prepared for compatibility with the existing network configuration. In order to enable the system to recognize Greek letters, the pre-trained model from the previous step was loaded. The gradient parameters were frozen, and the last linear layer was modified to have 3 output nodes instead of 10. Training and testing were conducted using all 27 images. Notably, the model achieved a 96% accuracy rate after several epochs; however, it exhibited difficulty in further training beyond this point.
+<img width="468" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/ac42e39a-7b72-4df6-9813-f3be14119887">
 
 
 
