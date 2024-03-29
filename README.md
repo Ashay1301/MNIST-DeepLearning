@@ -3,6 +3,14 @@
 
 An implementation of multilayer neural network using keras with an Accuracy: mean=96.058 
 
+## Description:
+
+The goal of this project was to become familiar with deep networks. For this project, I have implemented deep convolutional networks to classify handwritten digits. I have also carefully analyzed the hyperparameter tuning and assessed the performance of the network with different configurations.
+
+## Network Model
+<img width="240" alt="image" src="https://github.com/Ashay1301/MNIST-DeepLearning/assets/69242688/cf3e014e-5a23-4c01-a8c9-8629d8d4046e">
+
+
 
 ## Steps:
 
